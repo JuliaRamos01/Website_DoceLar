@@ -61,12 +61,14 @@ li{
 `;
 
 export const Carrossel = styled.section`
-border: blue 5px solid;
+/* border: blue 5px solid; */
 `;
 
 export const SectionCarrossel = styled.div`
 display: flex;
-border: red 3px solid;
+/* border: red 3px solid;  */
+align-items: center;
+width: 100vw;
 
 img{
 width: 100%;
@@ -76,5 +78,65 @@ object-fit: cover;
 `;
 
 export const Text = styled.div`
-
+/* border: purple 3px solid; */
+position: absolute;
+display: flex;
+flex-direction: column;
+width: 65vw;
+height: 30vh;
+align-items: center;
+h1{
+    color: white;
+    font-size: 40px;
+}
+button{
+    background-color: #F28705;
+    border: none;
+    color: white;
+    font-size: 18px;
+    width: 13vw;
+    height: 6vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
 `;
+
+export const Buttons = styled.div`
+/* border: blue 4px solid; */
+position: absolute;
+width: 100vw;
+height: 30vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+`;
+
+
+export const ButtonEsq = styled.button`
+width: 4vw;
+height: 8vh;
+/* position: absolute; */
+background-color: #F2B705;
+border: none;
+/* border: purple 3px solid; */
+
+img{
+    width: 2vw;
+    height: 4vh;
+}
+`;
+
+export const ButtonDir = styled.button`
+width: 4vw;
+height: 8vh;
+/* position: absolute; */
+background-color: #F2B705;
+border: none;
+/* border: magenta 3px solid; */
+img{
+    width: 2vw;
+    height: 4vh;
+}
+`;
+
+
