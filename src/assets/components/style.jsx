@@ -14,6 +14,8 @@ box-sizing:border-box;
 } */
 `;
 
+/* Navbar starts */
+
 export const Header = styled.header`
 display: flex;
 height: 13vh;
@@ -59,6 +61,10 @@ li{
     cursor: pointer;
 }
 `;
+
+/* Navbar ends */
+
+/* Carrossel starts */
 
 export const Carrossel = styled.section`
 /* border: blue 5px solid; */
@@ -139,4 +145,55 @@ img{
 }
 `;
 
+/* Carrossel ends */
 
+/* Products starts */
+
+export const Card = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 300px;
+height: 400px;
+margin: 0 20px 20px 0;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+`;
+
+export const Image = styled.img`
+width: 100%;
+height: 60%;
+object-fit: cover;
+border-radius: 10px 10px 0 0;
+`;
+
+export const Description = styled.p`
+margin: 10px;
+text-align: center;
+`;
+
+export const Button = styled.button`
+padding: 10px;
+background-color: #0077b6;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+`;
+
+export const Section = styled.section`
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 20px;
+`;
+
+/* Products ends */
+
+/* Space test starts */
+
+export const DivSpace = styled.div`
+height: 70vh;
+border: green 4px solid;
+`;
+/* Space text ends */
