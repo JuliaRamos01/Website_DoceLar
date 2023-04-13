@@ -6,6 +6,7 @@ import Carrossel from "./assets/components/Carrossel";
 import Spacetest from "./assets/components/Spacetest";
 import Places from "./assets/components/Places";
 import Contact from "./assets/components/Contact";
+import Footer from "./assets/components/Footer";
 
 export default function App(){
     return(
@@ -17,6 +18,7 @@ export default function App(){
         <Spacetest/>
         <Places/>
         <Contact/>
+        <Footer/>
         </>
     );
 };

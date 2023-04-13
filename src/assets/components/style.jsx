@@ -105,6 +105,7 @@ button{
     height: 6vh;
     border-radius: 20px;
     margin-top: 30px;
+    cursor: pointer;
 }
 `;
 
@@ -125,6 +126,7 @@ height: 8vh;
 /* position: absolute; */
 background-color: #F2B705;
 border: none;
+cursor: pointer;
 /* border: purple 3px solid; */
 
 img{
@@ -139,6 +141,7 @@ height: 8vh;
 /* position: absolute; */
 background-color: #F2B705;
 border: none;
+cursor: pointer;
 /* border: magenta 3px solid; */
 img{
     width: 2vw;
@@ -281,19 +284,21 @@ h3{
 /* Contact starts */
 export const ContactSection = styled.div`
 height: 80vh;
-border: yellow 3px solid;
+/* border: yellow 3px solid; */
 display: flex;
 align-items: center;
 justify-content: center;
+background-color: #F7F7F7;
 `;
 
 export const ContactBox = styled.div`
-height: 50vh;
+height: 70vh;
 width: 70vw;
-border: blue 3px solid;
+/* border: blue 3px solid; */
 display: flex;
 flex-direction: column;
 align-items: center;
+justify-content: space-evenly;
 h1{
     color: #F2B705;
     text-align: center;
@@ -305,11 +310,91 @@ button{
     height: 5vh;
     width: 15vw;
     border-radius: 20px;
+    cursor: pointer;
+}
+input{
+    border: #F2B705 0.8px solid;
+    height: 6vh;
+    width: 45vw;
+    padding: 10px;
 }
 `;
 
 export const Contactinputs = styled.div`
-border: purple 2px solid;
+/* border: purple 2px solid; */
+width: 50vw;
+display: flex;
+justify-content: space-evenly;
+input{
+    width: 21.3vw;
+}
+`;
+
+export const Inputmessage = styled.div`
+display: flex;
+input{
+    height: 25vh;
+    padding-bottom: 135px;
+}
 `;
 
 /* Contact ends */
+
+/* Footer starts */
+
+export const Footer = styled.div`
+display: flex;
+height: 15vh;
+background-color: #ABAAAA;
+`;
+
+export const DivLogo = styled.div`
+display: flex;
+width: 15vw;
+align-items: center;
+justify-content: space-around;
+background-color: white;
+
+
+h2 {
+    font-size: 2em;
+    color: #f2b705;
+    font-family: 'Inter', 800; 
+}
+
+img {
+    width: 3.5vw;
+}
+`;
+
+export const FooterBox = styled.div`
+/* border: purple 3px solid; */
+display: flex;
+align-items: center;
+justify-content: flex-end;
+width: 90vw;
+`;
+
+export const FooterItens = styled.div`
+/* border: green 2px solid; */
+width: 30vw;
+display: flex;
+justify-content: flex-end;
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 36vw; 
+}
+
+li{
+    cursor: pointer;
+}
+
+img{
+    height: 3vh;
+}
+`;
+
+/* Footer ends */

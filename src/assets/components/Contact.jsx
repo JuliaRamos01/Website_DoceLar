@@ -12,7 +12,7 @@ export default function Contact() {
                     <input type="number" placeholder="Telefone" />
                 </S.Contactinputs>
                     <input type="text" placeholder="Assunto" />
-                    <input type="message" placeholder="Digite sua mensagem" />
+                    <S.Inputmessage><input classname="message" type="message" placeholder="Digite sua mensagem" /></S.Inputmessage>
                 <button>ENVIAR</button>
             </S.ContactBox>
         </S.ContactSection>
