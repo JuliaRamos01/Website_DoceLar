@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import * as S from "./style";
 import ProductCard from "./ProductCard";
 
@@ -16,4 +16,4 @@ const ProductSection = ({products}) =>{
         </S.Section>
     );
 };
-export default ProductSection;
+export default ProductSection; */

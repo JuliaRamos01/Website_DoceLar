@@ -51,12 +51,12 @@ export default function ProductsSection () {
 
     return (
     <S.Section>
-        {products.map((product) => (
+        {products.map((products) => (
         <ProductCard
-            key={product.id}
-            image={product.image}
-            description={product.description}
-            buttonText={product.buttonText}
+            key={products.id}
+            image={products.image}
+            description={products.description}
+            buttonText={products.buttonText}
         />
         ))}
     </S.Section>

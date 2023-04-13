@@ -20,4 +20,4 @@ return (
     </S.Header>
     </>
 );
-}
+};

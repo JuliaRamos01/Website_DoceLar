@@ -20,6 +20,7 @@ export const Header = styled.header`
 display: flex;
 height: 13vh;
 position: fixed;
+z-index: 1;
 
 div {
     display: flex;
@@ -197,3 +198,118 @@ height: 70vh;
 border: green 4px solid;
 `;
 /* Space text ends */
+
+/* Places starts */
+export const PlaceSection = styled.div`
+height: 70vh;
+display: flex;
+align-items: center;
+/* border: blue 5px solid; */
+background-color: #8A493D;
+`;
+
+export const Placecards = styled.div`
+display: flex;
+height: 65vh;
+width: 100vw;
+justify-content: space-evenly;
+/* border: pink 4px solid; */
+`;
+
+export const Placecardone = styled.div`
+height: 65vh;
+width: 27vw;
+/* border: yellow 3px solid; */
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;
+img{
+    width: 40vh;
+}
+p{
+    color: white;
+}
+h3{
+    color: white;
+}
+`;
+
+export const Placecardtwo = styled.div`
+height: 65vh;
+width: 27vw;
+/* border: purple 3px solid; */
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;
+img{
+    width: 40vh;
+}
+p{
+    color: white;
+}
+h3{
+    color: white;
+}
+`;
+
+export const Placecardthree = styled.div`
+height: 65vh;
+width: 27vw;
+/* border: aqua 3px solid; */
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;
+img{
+    width: 40vh;
+}
+p{
+    color: white;
+}
+h3{
+    color: white;
+}
+`;
+
+/* Places ends */
+
+/* Contact starts */
+export const ContactSection = styled.div`
+height: 80vh;
+border: yellow 3px solid;
+display: flex;
+align-items: center;
+justify-content: center;
+`;
+
+export const ContactBox = styled.div`
+height: 50vh;
+width: 70vw;
+border: blue 3px solid;
+display: flex;
+flex-direction: column;
+align-items: center;
+h1{
+    color: #F2B705;
+    text-align: center;
+}
+button{
+    background-color: #F2B705;
+    color: white;
+    border: none;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 20px;
+}
+`;
+
+export const Contactinputs = styled.div`
+border: purple 2px solid;
+`;
+
+/* Contact ends */

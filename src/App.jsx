@@ -4,6 +4,8 @@ import Header from "./assets/components/Header";
 import Carrossel from "./assets/components/Carrossel";
 /* import Products from "./assets/components/Products"; */
 import Spacetest from "./assets/components/Spacetest";
+import Places from "./assets/components/Places";
+import Contact from "./assets/components/Contact";
 
 export default function App(){
     return(
@@ -13,6 +15,8 @@ export default function App(){
         <Carrossel/>
         {/* <Products /> */}
         <Spacetest/>
+        <Places/>
+        <Contact/>
         </>
     );
 };
