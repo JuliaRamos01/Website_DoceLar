@@ -153,43 +153,24 @@ img{
 
 /* Products starts */
 
-export const Card = styled.div`
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 300px;
-height: 400px;
-margin: 0 20px 20px 0;
-border-radius: 10px;
-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-`;
-
-export const Image = styled.img`
-width: 100%;
-height: 60%;
-object-fit: cover;
-border-radius: 10px 10px 0 0;
-`;
-
-export const Description = styled.p`
-margin: 10px;
-text-align: center;
-`;
-
-export const Button = styled.button`
-padding: 10px;
-background-color: #0077b6;
-color: #fff;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-`;
-
 export const Section = styled.section`
 display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-padding: 20px;
+height: 60vh;
+`;
+
+export const Card = styled.div`
+display: flex;
+height: 20vh;
+`;
+
+export const Description = styled.div`
+display: flex;
+height: 10vh;
+`;
+
+export const Button = styled.div`
+display: flex;
+height: 10vh;
 `;
 
 /* Products ends */

@@ -1,4 +1,5 @@
 import React from "react";
+import Products from "./Products";
 import * as S from "./style";
 
 const ProductCard =({ image, description, buttonText}) =>{

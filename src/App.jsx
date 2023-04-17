@@ -2,7 +2,7 @@ import React from "react";
 import * as S from "./assets/components/style";
 import Header from "./assets/components/Header";
 import Carrossel from "./assets/components/Carrossel";
-/* import Products from "./assets/components/Products"; */
+import ProductCard from "./assets/components/ProductCard";
 import Spacetest from "./assets/components/Spacetest";
 import Places from "./assets/components/Places";
 import Contact from "./assets/components/Contact";
@@ -14,7 +14,7 @@ export default function App(){
         <S.GlobalStyle />
         <Header/>
         <Carrossel/>
-        {/* <Products /> */}
+        <ProductCard />
         <Spacetest/>
         <Places/>
         <Contact/>
